@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+h2{
+	color: darkblue;
+
+}
+h4{
+	color: darkblue;
+	text-transform: uppercase;
+}
+
+.heading{
+	
+	text-align: center;
+
+}
+h1{
+	color: darkblue;
+	font-size: 40px;
+}
+.menu-btn{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 60px;
+	height: 20px;
+	cursor: pointer;
+
+}
+.bar{
+	width: 60px;
+	height: 4px;
+	background-color: black;
+}
+
+.colorful-form{
+	max-width :400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+
+}
+.form-group{
+	margin-bottom: 20px;
+
+}
+.form-label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333;
+}
+.form-input{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: #fff;
+	color: #333;
+	border-radius: 5px;
+}
+textarea.form-input{
+	height: 100px;
+
+}
+.form-button{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: blueviolet;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: backgrouns-color 0.3s ease;
+}
+.form-button:hover{
+	background-color: #ff5f59;
+	
+
+}
+.center-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.circle-tick{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:2px solid #007bff;
+	position: relative;
+	
+}
+.circle-tick::after{
+	content:"\2713";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 18px;
+	color: #007bff;
+}
